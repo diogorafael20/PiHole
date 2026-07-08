@@ -1,0 +1,16 @@
+# Blocklist categories metadata
+# Format: key|Display Name|filename|type
+# type: block  -> entries are added to Pi-hole as adlists (Gravity blocklists)
+#       allow  -> entries are added to the Pi-hole allowlist
+#
+# To add a new category: create a .txt file in the repo root with one URL
+# (or domain, for type=allow) per line, then add a line here. No script
+# changes needed.
+
+recommended|Recommended|recommended.txt|block
+privacy|Privacy|privacy.txt|block
+malware|Malware & Security|malware.txt|block
+socialmedia|Social Media|socialmedia.txt|block
+youtube|YouTube Ads|youtube.txt|block
+adult|Adult Content|+18.txt|block
+allowlist|Allowlist (safe domains)|allowlist.txt|allow
