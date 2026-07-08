@@ -1,0 +1,5 @@
+https://blocklist.sefinek.net/generated/0.0.0.0/porn.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/gambling.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.drugs.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.gambling.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.porn.txt
