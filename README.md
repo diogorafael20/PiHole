@@ -1,33 +1,75 @@
-# Pi-hole Blocklists & Allowlists
+# Pi-hole Blocklists Collection
 
-A curated collection of blocklists and allowlists for Pi-hole.
+A curated collection of Pi-hole blocklists focused on privacy, security and compatibility.
 
-This repository aims to provide a balanced configuration that improves privacy, blocks advertisements, trackers, telemetry and malicious domains while minimizing false positives.
+The lists are organised by category, allowing you to enable only the protection levels that fit your environment.
 
-## Features
-
-- Curated blocklists
-- Curated allowlists
-- NONIO whitelist
-- Easy installation
-- Compatible with Pi-hole v5 and v6
-- Regularly maintained
+---
 
 ## Included Lists
 
-| File | Description |
-|------|-------------|
-| blocklist.txt | Main blocklist |
-| whitelist.txt | Domains that should always be allowed |
-| nonio-whitelist.txt | Domains required for NONIO compatibility |
+| List | Description | Recommended |
+|------|-------------|:-----------:|
+| recommended.txt | General-purpose blocklist for daily use. Includes ads, trackers and common unwanted domains. | Yes |
+| privacy.txt | Additional tracking and privacy protection. | Yes |
+| malware.txt | Malware, phishing and malicious domains. | Yes |
+| youtube.txt | Experimental YouTube ad blocking. Due to YouTube's infrastructure, results may vary. | Optional |
+| social-media.txt | Blocks access to popular social media platforms. Intended for productivity or parental control. | Optional |
+| 18+.txt | Blocks adult content. Intended for parental control or restricted environments. | Optional |
+| allowlist.txt | Domains that should remain accessible to avoid false positives. | Yes |
 
-## Documentation
+---
 
-- [Installation Guide](INSTALL.md)
-- [Lists Overview](LISTS.md)
+## Recommended Setup
+
+For most users, the following combination provides the best balance between protection, compatibility and performance:
+
+- recommended.txt
+- privacy.txt
+- malware.txt
+- allowlist.txt
+
+---
+
+## Optional Lists
+
+### social-media.txt
+
+Blocks access to major social media platforms including Facebook, Instagram, X, TikTok, Snapchat, Reddit and others.
+
+Recommended for:
+
+- Schools
+- Businesses
+- Parental control
+- Productivity-focused environments
+
+### 18+.txt
+
+Blocks adult websites.
+
+Recommended for:
+
+- Families
+- Schools
+- Child protection
+
+### youtube.txt
+
+Attempts to reduce YouTube advertisements.
+
+Because YouTube serves advertisements from the same infrastructure as video content, DNS-based blocking cannot guarantee complete ad blocking.
+
+---
+
+## Installation
+
+See the installation guide in `INSTALL.md`.
+
+---
 
 ## Credits
 
-This repository is a curated collection of lists.
+This repository is a curated collection of publicly available blocklists.
 
-Special thanks to the Pi-hole community and all original list maintainers whose work makes this project possible.
+All credit belongs to the original maintainers of each list.
