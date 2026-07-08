@@ -37,22 +37,11 @@ For most users, the following combination provides the best balance between prot
 
 Blocks access to major social media platforms including Facebook, Instagram, X, TikTok, Snapchat, Reddit and others.
 
-Recommended for:
-
-- Schools
-- Businesses
-- Parental control
-- Productivity-focused environments
 
 ### 18+.txt
 
 Blocks adult websites.
 
-Recommended for:
-
-- Families
-- Schools
-- Child protection
 
 ### youtube.txt
 
