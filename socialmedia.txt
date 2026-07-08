@@ -1,2 +1,5 @@
 https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/social/snapchat.txt
+https://blocklist.sefinek.net/generated/v1/127.0.0.1/social/facebook.txt
+https://blocklist.sefinek.net/generated/v1/127.0.0.1/social/instagram.txt
+https://blocklist.sefinek.net/generated/v1/127.0.0.1/social/x.txt
