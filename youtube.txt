@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.youtube.txt
